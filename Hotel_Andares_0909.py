@@ -19,3 +19,9 @@ while andar_hotel != 1:
       break 
     print("O número do andar é:", andar_hotel) 
     ---------------------------------------------------------------------------------
+    #imprimir todos os numeros exceto 13 em ordem descendente:
+for i in range(20, 0, -1):
+  if(i == 13):
+    continue
+  else:
+    print(i)
