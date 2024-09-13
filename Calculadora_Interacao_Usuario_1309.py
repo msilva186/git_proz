@@ -26,7 +26,7 @@ def calculadora():
             valor1 = float(input("Digite o primeiro valor: "))
             valor2 = float(input("Digite o segundo valor: "))
         except ValueError:
-            print("Entrada inválida. Certifique-se de inserir números válidos.")
+            print("Opção digitada inválida. Digite uma das opções válidas.")
             continue
         
         # Executar a operação selecionada
